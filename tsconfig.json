@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "cs-cdk-library": [
+        "dist/cs-cdk-library"
+      ],
+      "cs-cdk-library/*": [
+        "dist/cs-cdk-library/*"
+      ]
+    }
   }
 }
